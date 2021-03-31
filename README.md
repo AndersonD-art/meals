@@ -27,6 +27,8 @@
 
 :small_blue_diamond: [Linguagens, dependencias e libs utilizadas](#-linguagens-dependencias-e-libs-utilizadas)
 
+:small_blue_diamond: [Desenvolvedores Contribuintes](#-desenvolvedores-contribuintes)
+
 :small_blue_diamond: [Autor](#-autor)
 
 --- 
@@ -120,6 +122,12 @@ git clone https://github.com/AndersonD-art/meals.git
 
 - [Lab: Flutter app](https://flutter.dev/docs/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+
+---
+
+## 👨‍💻 Desenvolvedores Contribuintes
+
+Um super thanks 👏 para Leonardo Moura Leitão da cod3r pela ajuda.
 
 ---
 
