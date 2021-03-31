@@ -147,4 +147,4 @@ Um super thanks 👏 para Leonardo Moura Leitão da cod3r pela ajuda.
 
 The [MIT License](https://github.com/AndersonD-art/meals/blob/main/LICENSE)(MIT)
 
-Copyright :copyright: 2021 - My Notes
+Copyright :copyright: 2021 - Meals
