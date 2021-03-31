@@ -58,6 +58,7 @@
                    Para finalizar possuimos um "FloatingActionButton" com um icone de um coração onde será possivel marcar a refeição como favorita.
 
 :heavy_check_mark: A tela de configurações é acessada através do menu principal, a mesma possui diversos filtros que podem ser marcados "SwitchListTile".
+
 ---
 
 ## 🎨 Layout 
