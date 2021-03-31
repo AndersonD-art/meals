@@ -34,7 +34,7 @@ class MealItem extends StatelessWidget {
                     topRight: Radius.circular(15),
                   ),
                   child: Hero(
-                    tag: 'dash',
+                    tag: '${meal.title}',
                     child: Image.network(
                       meal.imageUrl,
                       height: 170,

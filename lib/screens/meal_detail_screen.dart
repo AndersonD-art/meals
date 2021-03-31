@@ -53,7 +53,7 @@ class MealDetailScreen extends StatelessWidget {
               height: 180,
               width: double.infinity,
               child: Hero(
-                tag: 'dash',
+                tag: '${meal.title}',
                 child: Image.network(
                   meal.imageUrl,
                   fit: BoxFit.cover,
