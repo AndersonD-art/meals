@@ -135,7 +135,7 @@ Um super thanks 👏 para Leonardo Moura Leitão da cod3r pela ajuda.
 
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/77983152?s=460&u=f61c18670116cb318cdf26e7523643a6dccb5680&v=4" width="100px;" alt=""/>
  <br />
- <sub><b>Anderson David</b></sub> ☕
+ <sub><b>Anderson David</b></sub> 👨‍💻☕
  <br />
 
 [![Linkedin Badge](https://img.shields.io/badge/-AndersonDavid-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/anderson-david-ti)](https://www.linkedin.com/in/anderson-david-ti) 
