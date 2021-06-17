@@ -1,4 +1,4 @@
-<h1>Meals - Aplicativo de Receitas</h1> 
+<h1>Meals - Aplicativo de Receitas - Null Safety</h1> 
 
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=dart&message=language&color=blue&style=for-the-badge&logo=DART"/>  
