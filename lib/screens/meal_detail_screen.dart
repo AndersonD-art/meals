@@ -35,7 +35,7 @@ class MealDetailScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final meal = ModalRoute.of(context).settings.arguments as Meal;
+    final meal = ModalRoute.of(context)!.settings.arguments as Meal;
     return Scaffold(
       backgroundColor: Theme.of(context).accentColor,
       appBar: AppBar(

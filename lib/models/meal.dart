@@ -1,6 +1,3 @@
-import 'package:flutter/foundation.dart';
-import 'package:flutter/material.dart';
-
 enum Complexity {
   Simple,
   Medium,
@@ -29,19 +26,19 @@ class Meal {
   final Cost cost;
 
   const Meal({
-    @required this.id,
-    @required this.categories,
-    @required this.title,
-    @required this.imageUrl,
-    @required this.ingredients,
-    @required this.steps,
-    @required this.duration,
-    @required this.isGlutenFree,
-    @required this.isLactoseFree,
-    @required this.isVegan,
-    @required this.isVegetarian,
-    @required this.complexity,
-    @required this.cost,
+    required this.id,
+    required this.categories,
+    required this.title,
+    required this.imageUrl,
+    required this.ingredients,
+    required this.steps,
+    required this.duration,
+    required this.isGlutenFree,
+    required this.isLactoseFree,
+    required this.isVegan,
+    required this.isVegetarian,
+    required this.complexity,
+    required this.cost,
   });
 
   String get complexityText {

@@ -25,13 +25,13 @@ class CustomDrawerSwipeWidget extends StatefulWidget {
   final Curve curve;
 
   /// show the clone body when the drawer if open
-  bool hasClone;
+  final bool hasClone;
 
   CustomDrawerSwipeWidget(
-      {@required this.child,
-      @required this.drawer,
-      @required Key key,
-      this.image,
+      {required this.child,
+      required this.drawer,
+      required Key key,
+      required this.image,
       this.bodySize = 80,
       this.radius = 0,
       this.hasClone = true,
@@ -41,14 +41,13 @@ class CustomDrawerSwipeWidget extends StatefulWidget {
       : super(key: key);
 
   @override
-  _CustomDrawerSwipeWidgetState createState() =>
-      _CustomDrawerSwipeWidgetState();
+  CustomDrawerSwipeWidgetState createState() => CustomDrawerSwipeWidgetState();
 }
 
-class _CustomDrawerSwipeWidgetState extends State<CustomDrawerSwipeWidget>
+class CustomDrawerSwipeWidgetState extends State<CustomDrawerSwipeWidget>
     with SingleTickerProviderStateMixin {
-  AnimationController animationController;
-  Animation<double> animation;
+  late AnimationController animationController;
+  late Animation<double> animation;
 
   bool dragging = false;
 

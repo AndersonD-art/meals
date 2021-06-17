@@ -1,8 +1,8 @@
-import 'package:drawer_swipe/drawer_swipe.dart';
 import 'package:flutter/material.dart';
 import 'package:meals/models/meal.dart';
 import 'package:meals/screens/categories_screen.dart';
 import 'package:meals/screens/favorite_screen.dart';
+import 'package:meals/widgets/custom_drawer_swipe_widget.dart';
 import 'package:meals/widgets/drawer_animated_widget.dart';
 import 'package:meals/widgets/hidenavbar_widget.dart';
 import 'package:meals/widgets/clone_screen_widget.dart';
@@ -18,10 +18,10 @@ class TabsScreen extends StatefulWidget {
 
 class _TabsScreenState extends State<TabsScreen> {
   int _selectedScreenIndex = 0;
-  List<Widget> _screens;
+  late List<Widget> _screens;
 
 //Packet drawer_swipe
-  SwipeDrawer swipeDrawer;
+  late CustomDrawerSwipeWidget swipeDrawer;
 
   final HideNavbar hiding = HideNavbar();
 
@@ -41,14 +41,14 @@ class _TabsScreenState extends State<TabsScreen> {
     });
   }
 
-  var drawerKey = GlobalKey<SwipeDrawerState>();
+  var drawerKey = GlobalKey<CustomDrawerSwipeWidgetState>();
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Theme.of(context).accentColor,
       extendBodyBehindAppBar: true,
-      body: SwipeDrawer(
+      body: CustomDrawerSwipeWidget(
         radius: 20,
         key: drawerKey,
         hasClone: true,
@@ -72,7 +72,7 @@ class _TabsScreenState extends State<TabsScreen> {
               BottomNavigationBar(
                 onTap: _selectScreen,
                 backgroundColor: Theme.of(context).primaryColor,
-                unselectedItemColor: Colors.grey[900].withOpacity(0.5),
+                unselectedItemColor: Colors.grey[900]!.withOpacity(0.5),
                 selectedItemColor: Theme.of(context).accentColor,
                 currentIndex: _selectedScreenIndex,
                 items: [
@@ -104,10 +104,10 @@ class _TabsScreenState extends State<TabsScreen> {
           centerTitle: true,
           leading: InkWell(
             onTap: () {
-              if (drawerKey.currentState.isOpened()) {
-                drawerKey.currentState.closeDrawer();
+              if (drawerKey.currentState!.isOpened()) {
+                drawerKey.currentState!.closeDrawer();
               } else {
-                drawerKey.currentState.openDrawer();
+                drawerKey.currentState!.openDrawer();
               }
             },
             child: Icon(
