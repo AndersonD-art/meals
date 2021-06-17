@@ -58,7 +58,7 @@ class _TabsScreenState extends State<TabsScreen> {
         backgroundColor: Colors.blue,
         drawer: DrawerAnimated(),
         child: screen(),
-        //por padrão não vem configurado com esta opção, foi realizado uma personalização no pacote.
+        //por padrão não vem configurado com esta opção, foi realizado uma personalização no pacote drawer_swipe.
         //by default it is not designed with this option, a customization was made in the package
         image: CloneScreen(_selectedScreenIndex, widget.favoriteMeals),
       ),
