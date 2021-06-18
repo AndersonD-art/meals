@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:meals/models/settings.dart';
+import 'package:meals/screens/settings/settings.dart';
 import 'package:meals/routes/app_routes.dart';
 
 class SettingsScreen extends StatefulWidget {

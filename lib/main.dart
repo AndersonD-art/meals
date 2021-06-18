@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:meals/data/dummy_data.dart';
-import 'package:meals/models/settings.dart';
+import 'package:meals/screens/settings/settings.dart';
 import 'package:meals/routes/app_routes.dart';
 import 'package:meals/routes/custom_routes.dart';
 import 'package:meals/screens/categories_meal/categories_meals_screen.dart';
