@@ -32,12 +32,13 @@ class CustomPageTransitionsBuilder extends PageTransitionsBuilder {
     Animation<double> secondaryAnimation,
     Widget child,
   ) {
-    //Não realizar a transição para a rota principal
+    //Caso não queira realizar a transição para a rota principal
+    //If you do not want to transition to the main route
+
     /* if (route.settings.name == '/') {
       return child;
-    } */
-
-    /* return FadeTransition(
+    }
+    return FadeTransition(
       opacity: animation,
       child: child,
     ); */

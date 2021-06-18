@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:meals/models/meal.dart';
-import 'package:meals/screens/categories_screen.dart';
-import 'package:meals/screens/favorite_screen.dart';
-import 'package:meals/widgets/custom_drawer_swipe_widget.dart';
-import 'package:meals/widgets/drawer_animated_widget.dart';
-import 'package:meals/widgets/hidenavbar_widget.dart';
-import 'package:meals/widgets/clone_screen_widget.dart';
+import 'package:meals/screens/general_category/categories_screen.dart';
+import 'package:meals/screens/favorite_meal/favorite_screen.dart';
+import 'package:meals/screens/home/widget/custom_drawer_swipe_widget.dart';
+import 'package:meals/screens/home/widget/drawer_animated_widget.dart';
+import 'package:meals/screens/home/widget/hidenavbar_widget.dart';
+import 'package:meals/screens/home/widget/clone_screen_widget.dart';
 
 class TabsScreen extends StatefulWidget {
   final List<Meal> favoriteMeals;
@@ -58,8 +58,8 @@ class _TabsScreenState extends State<TabsScreen> {
         backgroundColor: Colors.blue,
         drawer: DrawerAnimated(),
         child: screen(),
-        //por padrão não vem configurado com esta opção, foi realizado uma personalização no pacote drawer_swipe.
-        //by default it is not designed with this option, a customization was made in the package
+        //foi realizado uma personalização no pacote drawer_swipe.
+        //a customization was made in the package
         image: CloneScreen(_selectedScreenIndex, widget.favoriteMeals),
       ),
       bottomNavigationBar: ValueListenableBuilder(

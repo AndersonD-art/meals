@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:meals/models/meal.dart';
-import 'package:meals/screens/categories_screen.dart';
-import 'package:meals/screens/favorite_screen.dart';
+import 'package:meals/screens/general_category/categories_screen.dart';
+import 'package:meals/screens/favorite_meal/favorite_screen.dart';
 
 class CloneScreen extends StatelessWidget {
   final int index;

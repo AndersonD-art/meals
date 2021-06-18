@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:meals/utils/app_routes.dart';
+import 'package:meals/routes/app_routes.dart';
 
 class DrawerAnimated extends StatelessWidget {
   @override
